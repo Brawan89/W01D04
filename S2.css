@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(124, 218, 124);
+}
+
+.content {
+   
+    width: 35%;
+    margin: auto;
+    padding: 5px; 
+    background-color: white;
+    border-radius: 15px;
+    
+    
+  }
+
+  .list{
+    text-decoration: line-through;
+    background-color: rgb(218, 214, 214);
+    background-size: contain;
+    max-width: 30%;
+  }
+
+  button{
+    color: aliceblue;
+      width: 10%;
+      height: 15%;
+    border-radius: 15px;
+    background-color: turquoise;
+    border: none;
+  }
+
+  .button1{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+  color: aliceblue;
+  margin: 4px 2px;
+  padding: 5px 12px;
+  border-radius: 18px;
+  background-color: turquoise;
+  width: fit-content;
+  }
+
+  .button2{
+     
+    justify-content: space-around;
+    align-items: flex-end;
+   
+    color: aliceblue;
+    margin: 8px 2px;
+    padding: 5px 12px;
+    border-radius: 18px;
+    background-color: rgb(116, 28, 28);
+    width: fit-content;
+    }
+
+    .button3{
+        justify-content: space-around;
+        align-items: flex-end;
+        
+        color: aliceblue;
+        margin: 4px 2px;
+        padding: 5px 10px;
+        border-radius: 18px;
+        background-color: turquoise;
+        width: fit-content; 
+        }
+
+  
+
