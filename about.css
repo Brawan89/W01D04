@@ -12,7 +12,7 @@
     grid-template-rows: auto;
     grid-gap: 5px;
     padding: 10px;
-    height: 50px;
+    height: auto;
     
 }
 .box{
@@ -23,17 +23,25 @@
     border-top-color:  rgb(222,153,43);
     font-size: 20px;
     line-height: 1.8;
-    word-break: break-all;
+    
+   
 }
-/* p.box{
-    text-align: left;
-} */
+
 
 h1{
-    font-size: 35px;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
 }
-
 p{
-    margin: 5px;
     font-size: 25px;
 }
+
+.box p{
+    
+    font-size: 20px;
+    text-align: left;
+    
+}
+
+

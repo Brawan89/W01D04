@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+}
+.conainer{
+display: grid;
+grid-template-columns: 50% 50%;
+grid-template-rows: auto;
+grid-gap: 5px;
+padding: 7px;
+height: auto;
+            
+}
+.box{
+display: block;
+margin: 15px;
+padding: 20px;
+font-size: 20px;
+line-height: 1.8;
+ }
+
+ .column{
+ width: 30%;
+ margin: 10px;
+ padding: 20px;
+ }
+ .column input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+ }
+
+ .column textarea{
+    width: 150%;
+    padding: 12px;
+    border: 1px solid #ccc;
+ }
+ 
+
+ img{
+     padding: 10px;
+     width: 600px;
+ }
+
+ button{
+     width: 100px;
+     height: 40px;
+     color: rgb(202, 169, 60);
+     background-color: black;
+     font-size: large;
+     border-radius: 6px;
+ }
+p{
+ white-space:pre-line;
+ padding: 20px;
+}
