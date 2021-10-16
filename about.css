@@ -23,8 +23,9 @@
     border-top-color:  rgb(222,153,43);
     font-size: 20px;
     line-height: 1.8;
-    
-   
+}
+.box h2>img{
+    border-bottom: 3px solid rgb(222,153,43);
 }
 
 
